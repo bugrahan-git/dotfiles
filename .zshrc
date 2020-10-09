@@ -109,5 +109,7 @@ source $ZSH/oh-my-zsh.sh
 alias g="git status"
 alias gp="git push origin master"
 alias ws="cd ~/Workspace"
+alias scripts="cd ~/Scripts"
+alias ..="cd .."
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
