@@ -7,7 +7,6 @@ set visualbell
 set hlsearch
 set smartcase
 set incsearch
-set autoindent
 set cindent
 set shiftwidth=4
 set smartindent
