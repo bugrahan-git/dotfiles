@@ -1,14 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+PATH=$HOME/bin:$PATH
 
-plugins=(
-    git
-    history-substring-search
-    colored-man-pages
-    zsh-autosuggestions
-    zsh-syntax-highlighting
-    zsh-z
-)
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/bugrahan/.oh-my-zsh"
@@ -77,7 +70,14 @@ ZSH_THEME="alanpeabody"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(
+    git
+    history-substring-search
+    colored-man-pages
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+    zsh-z
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -106,6 +106,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias scripts="cd ~/Scripts"
-alias projects="cd ~/Projects" 
+alias g="git status"
+alias gp="git push origin master"
+alias ws="cd ~/Workspace"
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
