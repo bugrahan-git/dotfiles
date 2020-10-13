@@ -1,7 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-PATH=$HOME/bin:$PATH
-
+PATH=$HOME/bin:$HOME/.cargo/bin:$PATH
+EDITOR=/usr/bin/vim
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/bugrahan/.oh-my-zsh"
