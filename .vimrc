@@ -1,3 +1,12 @@
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'vbe0201/vimdiscord'
+call vundle#end()
+filetype plugin indent on
+
 set number
 set linebreak
 set showbreak=+++
