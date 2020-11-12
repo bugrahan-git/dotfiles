@@ -4,9 +4,11 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vbe0201/vimdiscord'
+Plugin 'itchyny/lightline.vim'
 call vundle#end()
 filetype plugin indent on
 
+set laststatus=2
 set number
 set linebreak
 set showbreak=+++
@@ -25,3 +27,7 @@ set ruler
 set undolevels=1000
 set backspace=indent,eol,start
 syntax on
+
+if !has('gui_running')
+  set t_Co=256
+endif
